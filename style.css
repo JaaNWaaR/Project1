@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Colors */
+
+:root {
+    --Bright_orange: hsl(31, 77%, 52%);
+    --Dark_cyan: hsl(184, 100%, 22%);
+    --Very_dark_cyan: hsl(179, 100%, 13%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #ffff;
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffff;
+    font-weight: 400;
+    padding: 0px;
+    padding-bottom: 70px;
+    font-size: 15px;
+}
+
+img {
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+button {
+    padding: 12px 40px;
+    background: #ffff;
+    border-radius: 35px;
+    border: none;
+    font-weight: 700;
+}
+
+button:hover {
+    border: 2px solid #ffff;
+    background-color: transparent;
+    color: #ffff;
+    transition: .5s;
+}
+
+.box_container {
+    width: 100%;
+    height: fit-content;
+    padding: 70px 30px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxOne {
+    background-color: var(--Bright_orange);
+    padding: 40px 58px;
+}
+
+.boxOne button {
+    color: var(--Bright_orange);
+}
+
+.boxtwo {
+    background-color: var(--Dark_cyan);
+    padding: 40px 58px;
+}
+
+.boxtwo button {
+    color: var(--Dark_cyan);
+}
+
+.boxThree button {
+    color: var(--Very_dark_cyan);
+}
+
+.boxThree {
+    background-color: var(--Very_dark_cyan);
+    padding: 40px 58px;
+}
+
+.mainBox {
+    margin: 0px;
+    padding: 0px;
+}
